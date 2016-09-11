@@ -1,0 +1,6 @@
+var photoPrint = (function() {
+    return {
+
+    };
+
+})();
