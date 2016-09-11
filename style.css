@@ -2,3 +2,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#print-preview {
+    box-sizing: border-box;
+    width: 24cm;
+    height: 18cm;
+    border: 1px dashed black;
+    padding: 2.5cm 3cm;
+}
+
+#photo-preview {
+    width: 18cm;
+    height: 13cm;
+}
+
+@media print {
+    @page {
+        margin: 0;
+    }
+
+    #control-panel {
+        display: none;
+    }
+}

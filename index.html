@@ -5,7 +5,13 @@
         <script src="app.js"></script>
     </head>
     <body>
-        <input id="photo-upload" type="file" onchange="app.upload()"><br>
-        <img id="photo-preview" src="" height="200" alt="Image preview">
+        <div id="print-preview">
+            <img id="photo-preview" src="" alt="Image preview">
+        </div>
+        <div id="control-panel">
+            <input id="photo-upload" type="file" onchange="app.upload()">
+            <p>Frame size (with mount): 24cm x 18cm</p>
+            <p>Photo size: 18cm x 13cm</p>
+        </div>
     </body>
 </html>
